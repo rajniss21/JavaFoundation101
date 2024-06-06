@@ -29,6 +29,8 @@ bin/
 .DS_Store
 # IntelliJ specific files
 .idea/
+*.iml
+
 
 # Compiled class file
 *.class
