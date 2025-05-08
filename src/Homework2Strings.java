@@ -10,6 +10,8 @@ public class Homework2Strings {
     */
         System.out.println("Assignment #1");
 
+        String phrase = "I never dreamed about success. I worked for it";
+        System.out.println(phrase.length());
 
 
     /*
@@ -20,6 +22,10 @@ public class Homework2Strings {
     4.) Print out first 12 characters of the phrase.
     */
         System.out.println("Assignment #2");
+        String name = "Estee Lauder";
+        String quote = name + "-" + phrase;
+        System.out.println(quote);
+        System.out.println(phrase.substring(0,12));
 
 
 
@@ -29,7 +35,18 @@ public class Homework2Strings {
     2.) Print out whether they are equal or not equal and explain why (whether they are equal or not).
     */
         System.out.println("Assignment #3");
+        String firstString = "0CT0PUS";
+        String secondString = "0CT0PUS";
 
+        String third = String.valueOf(firstString.equals(secondString));
+        System.out.println(third);
+
+        if (firstString.equals(secondString)){
+            System.out.println("Equals");
+
+        }else {
+            System.out.println("Not Same");
+        }
 
     }
 }

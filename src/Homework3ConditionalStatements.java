@@ -6,7 +6,8 @@ public class Homework3ConditionalStatements {
          * Assignment #1
          * 1.) Create an int variable with the value of 75 (you can choose any variable name).
          * 2.) Write an if/else statement to determine whether our int variable is an even or odd number.
-         * Hint: The modulo or remainder operator % gives you the remainder when one number is divided by another. Think about how this can help you determine whether a number is even or odd.
+         * Hint: The modulo or remainder operator % gives you the remainder when one number is divided by another.
+         *  Think about how this can help you determine whether a number is even or odd.
          * 3.) If our int variable is even, print out "It's an even number", otherwise  display "It's an odd number".
          * 4.) Next, let's update the value of the int variable to 346 (an even number), and the output should be correct.
          *
@@ -15,6 +16,12 @@ public class Homework3ConditionalStatements {
          */
         System.out.println("Assignment #1");
         // Write the missing part here
+        int number = 75;
+        if (number % 2 == 0){
+            System.out.println("Even Number");
+        }else{
+            System.out.println("Odd Number");
+        }
 
         /*
          * Assignment #2
@@ -31,8 +38,31 @@ public class Homework3ConditionalStatements {
 
         System.out.println("Assignment #2");
         // Write the missing part here
+        int day = 9;
+        switch (day){
+            case 1:
+                System.out.println("It's Sunday");
+                break;
+            case 2:
+                System.out.println("It's Monday");
+                break;
+            case 3:
+                System.out.println("It's Tuesday");
+                break;
+            case 4:
+                System.out.println("It's Wednesday");
+            case 5:
+                System.out.println("It's Thursday");
+            case 6:
+                System.out.println("It's Friday");
+            break;
+            default:
+                System.out.println("No day defined");
+        }
 
-        // Check the answers and submit your homework by clicking 'Submit' button at top
+
+
+
 
         /*
          * OPTIONAL HOMEWORK ONLY

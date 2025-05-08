@@ -16,7 +16,7 @@ public class Homework6ClassesAndObjects {
         // Please finish the rest
 
     }
-} // Closing brace for the Main class
+}
 
 class BankingAccount {
 

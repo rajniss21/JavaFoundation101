@@ -10,6 +10,8 @@ public class Homework1Primitives {
         System.out.println("Assignment #1");
         // Write your answer below this line
 
+        System.out.println("Rajnish Pradhan");
+
         /*
          * Assignment #2
          * 1.) Declare an int variable named 'bookPrice' equal to $45
@@ -22,6 +24,11 @@ public class Homework1Primitives {
          */
         System.out.println("Assignment #2");
         // Write your answer below this line
+
+        int bookPrice = 45;
+        double discount = 20;
+        double total = bookPrice - (bookPrice * discount)/100;
+        System.out.println("The total is: " + total);
 
         /*
          * Assignment #3
